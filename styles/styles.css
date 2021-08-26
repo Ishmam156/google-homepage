@@ -18,6 +18,7 @@ nav {
 
 nav img {
   height: 30px;
+  cursor: pointer;
 }
 
 nav button {
@@ -28,6 +29,7 @@ nav button {
   width: 70px;
   font-weight: bold;
   border-radius: 5%;
+  cursor: pointer;
 }
 
 #logo {
@@ -53,7 +55,6 @@ nav button {
 #buttons {
   display: grid;
   grid-template-columns: 1fr repeat(2, 150px) 1fr;
-  margin-bottom: 210px;
 }
 
 #buttons button {
@@ -75,8 +76,18 @@ nav button {
 input {
   height: 40px;
   width: 500px;
+  text-indent: 20px;
   border-radius: 25px;
-  border: 1px solid rgb(223, 225, 229);
+  border: 1px solid rgb(152, 155, 160);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 input:hover {
@@ -92,15 +103,28 @@ input:focus {
 }
 
 footer {
+  position: fixed;
+  bottom: 0px;
+}
+
+#footer-grid {
   display: grid;
-  grid-template-columns: repeat(2, 80px) 150px 1fr repeat(3, 80px);
+  width: 100vw;
+  grid-template-columns: repeat(2, 90px) 150px 1fr repeat(3, 80px);
   font-size: small;
-  padding-left: 20px;
-  padding-right: 20px;
   align-items: center;
   color: #5f6368;
   justify-items: center;
   border-top: 0.5px solid #d4d1d1;
   background-color: #f2f2f2;
   height: 35px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
