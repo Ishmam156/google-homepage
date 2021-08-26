@@ -8,7 +8,7 @@ You can check out the webpage [here](https://ishmam156.github.io/google-homepage
 
 ## Screenshots
 
-![Webpage Screenshot](https://i.imgur.com/3fxvFqB.png)
+![Webpage Screenshot](https://i.imgur.com/Nkzio3B.png)
 
 ## Tech Stack
 
