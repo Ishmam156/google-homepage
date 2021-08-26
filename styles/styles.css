@@ -48,8 +48,61 @@ nav button {
 #searchbar {
   display: grid;
   align-items: center;
-  justify-items: center;
+  /* justify-items: center; */
   margin-bottom: 30px;
+  grid-template-columns: repeat(2, 1fr) 600px repeat(2, 1fr);
+}
+
+#empty1 {
+  grid-column-start: 1;
+}
+
+#searchicon {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  justify-self: flex-start;
+  margin-left: 15px;
+  z-index: 3;
+}
+
+#forminput {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  justify-self: stretch;
+}
+
+#microphone {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  justify-self: flex-end;
+  margin-right: 5px;
+}
+
+#empty2 {
+  grid-column-start: 5;
+}
+
+#searchicon {
+  color: #9aa0a6;
+  fill: #9aa0a6;
+  font-size: 14px;
+  line-height: 24px;
+  transform-origin: 0px 0px;
+  height: 20px;
+  width: 20px;
+}
+
+#microphone {
+  color: #222;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 44px;
+  transform-origin: 0px 0px;
+  height: 24px;
+  width: 24px;
 }
 
 #buttons {
@@ -67,6 +120,7 @@ nav button {
   margin: 5px;
   color: #5f6368;
 }
+
 #buttons button:hover {
   border: 1px solid #5f6368;
   border-radius: 4px;
@@ -75,10 +129,11 @@ nav button {
 
 input {
   height: 40px;
-  width: 500px;
-  text-indent: 20px;
+  width: 600px;
+  border: none;
+  text-indent: 40px;
   border-radius: 25px;
-  border: 1px solid rgb(152, 155, 160);
+  border: 1px solid rgb(217, 222, 230);
 }
 
 nav a {
