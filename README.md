@@ -1,6 +1,6 @@
 # Google Homepage
 
-A simple reconstruction of the Google Homepage for The Odin Project.
+A simple reconstruction of the Google Homepage for The Odin Project with the home page and a demo search result page.
 
 ## Live Link
 
@@ -8,7 +8,13 @@ You can check out the webpage [here](https://ishmam156.github.io/google-homepage
 
 ## Screenshots
 
+##### Home Page
+
 ![Webpage Screenshot](https://i.imgur.com/Nkzio3B.png)
+
+##### Search Result Page
+
+![Search Result Screenshot](https://i.imgur.com/GamHz8w.png)
 
 ## Tech Stack
 
