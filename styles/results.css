@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -69,7 +69,7 @@ nav {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
-  border-top: 1px solid #1a73e8;
+  border-top: 3px solid #1a73e8;
 }
 
 .greyGrid {
@@ -171,7 +171,6 @@ nav {
   color: #222;
   cursor: pointer;
   font-size: 14px;
-  /* line-height: 44px; */
   transform-origin: 0px 0px;
   height: 24px;
   width: 24px;
@@ -228,4 +227,105 @@ nav {
   grid-row-start: 1;
   grid-column-start: 10;
   grid-column-end: span 4;
+}
+
+.searchResult {
+  display: grid;
+  grid-template-columns: 140px 600px 1fr;
+  justify-items: flex-start;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 15px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.headerText {
+  font-size: 20px;
+  color: rgb(26, 13, 171);
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration-thickness: initial;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.headerLink {
+  color: rgb(32, 33, 36);
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding-top: 1px;
+  text-decoration-thickness: initial;
+}
+
+.searchText {
+  color: rgb(77, 81, 86);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.searchLinks a {
+  text-decoration-line: none;
+  color: rgb(26, 13, 171);
+  text-decoration-color: rgb(26, 13, 171);
+  text-decoration-style: solid;
+  text-decoration-thickness: initial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#alsoSearch {
+  display: grid;
+  grid-template-columns: 140px 600px 1fr;
+  justify-items: flex-start;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 15px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+#alsoSearchBox {
+  border-radius: 8px;
+  border: 1px solid rgb(218, 220, 224);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#alsoSearchInitial {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}
+
+#searchLinksOverall {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+#searchLinksOverall a {
+  text-decoration-line: none;
+  color: rgb(26, 13, 171);
+  text-decoration-color: rgb(26, 13, 171);
+  text-decoration-style: solid;
+  text-decoration-thickness: initial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#alsoSearchLinks {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 20px);
 }
