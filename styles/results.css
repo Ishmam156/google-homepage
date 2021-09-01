@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+  -webkit-box-sizing: border-box;
+
+  /* Firefox (desktop or Android) 28- */
+  -moz-box-sizing: border-box;
+
+  /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+  box-sizing: border-box;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 10px 100px 10px 400px repeat(4, 20px) 1fr repeat(
+      3,
+      30px
+    );
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#secondGrid {
+  display: grid;
+  grid-template-columns: 120px repeat(6, 80px) 100px 80px 1fr;
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#secondGrid svg {
+  height: 16px;
+  width: 16px;
+  color: #5f6368;
+}
+
+#secondGrid div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70px;
+  color: #5f6368;
+}
+
+#seperatorGrid {
+  display: grid;
+  grid-template-columns: 150px 50px 1fr;
+  justify-items: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+#colorGrid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-top: 1px solid #1a73e8;
+}
+
+.greyGrid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+#thirdGrid {
+  display: grid;
+  grid-template-columns: 140px 40px 300px 1fr;
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 15px;
+  font-size: 14px;
+  color: #70757a;
+}
+
+#searchInfo {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  justify-self: start;
+  grid-column-end: span 2;
+}
+
+#allSingle span {
+  color: #1a73e8;
+}
+
+#logo {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+}
+
+#logo img {
+  height: 30px;
+  margin-left: 10px;
+}
+
+#forminput {
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-column-end: span 5;
+}
+
+#inputText {
+  height: 40px;
+  width: 500px;
+  border: none;
+  text-indent: 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  border-color: #d4cccc;
+  box-shadow: 0 0 10px #d4cccc;
+}
+
+#inputText:hover {
+  outline: none;
+  border-color: #d4cccc;
+  box-shadow: 0 0 10px #d4cccc;
+}
+
+#inputText:focus {
+  outline: none;
+  border-color: #d4cccc;
+  box-shadow: 0 0 10px #d4cccc;
+}
+
+#clearIcon {
+  grid-row-start: 1;
+  grid-column-start: 5;
+  grid-column-end: span 1;
+  color: #70757a;
+  fill: #70757a;
+  cursor: pointer;
+  font-size: 14px;
+  width: 24px;
+}
+
+#seperator {
+  grid-row-start: 1;
+  grid-column-start: 6;
+  grid-column-end: span 1;
+  margin-right: 20px;
+  line-height: 44px;
+  height: 29px;
+  border-left: 1px solid rgb(223, 225, 229);
+}
+
+#microphone {
+  grid-row-start: 1;
+  grid-column-start: 7;
+  grid-column-end: span 1;
+  margin-right: 40px;
+  color: #222;
+  cursor: pointer;
+  font-size: 14px;
+  /* line-height: 44px; */
+  transform-origin: 0px 0px;
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+
+#searchicon {
+  grid-row-start: 1;
+  grid-column-start: 8;
+  grid-column-end: span 1;
+  margin-right: 40px;
+  color: #9aa0a6;
+  fill: #9aa0a6;
+  font-size: 14px;
+  line-height: 24px;
+  transform-origin: 0px 0px;
+  height: 20px;
+  width: 20px;
+}
+
+#settingsIcon {
+  grid-row-start: 1;
+  grid-column-start: 10;
+  grid-column-end: span 1;
+  color: rgb(60, 64, 67);
+  cursor: pointer;
+  font-size: 14px;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+}
+
+#appsIcon {
+  grid-row-start: 1;
+  grid-column-start: 11;
+  grid-column-end: span 1;
+}
+
+#appsIcon img {
+  height: 30px;
+}
+
+#profileIcon {
+  grid-row-start: 1;
+  grid-column-start: 12;
+  grid-column-end: span 1;
+}
+
+#profileIcon img {
+  height: 50px;
+}
+
+#upEmpty {
+  grid-row-start: 1;
+  grid-column-start: 10;
+  grid-column-end: span 4;
+}
