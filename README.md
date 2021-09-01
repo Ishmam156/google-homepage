@@ -14,7 +14,7 @@ You can check out the webpage [here](https://ishmam156.github.io/google-homepage
 
 ##### Search Result Page
 
-![Search Result Screenshot](https://i.imgur.com/GamHz8w.png)
+![Search Result Screenshot](https://i.imgur.com/txvA0jy.png)
 
 ## Tech Stack
 
